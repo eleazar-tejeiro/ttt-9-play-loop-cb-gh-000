@@ -4,6 +4,7 @@ def play (board)
     turn(board)
   else
     board
+  end
 end
 # Helper Methods
 def display_board(board)

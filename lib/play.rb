@@ -1,3 +1,10 @@
+def play (board)
+  counter = 0
+  if counter < 10
+    turn(board)
+  else
+    board
+end
 # Helper Methods
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "

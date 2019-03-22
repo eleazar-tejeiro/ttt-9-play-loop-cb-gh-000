@@ -3,6 +3,8 @@ def play (board)
   if counter < 10
     turn(board)
     counter+=1
+  else
+    board
   end
 end
 # Helper Methods

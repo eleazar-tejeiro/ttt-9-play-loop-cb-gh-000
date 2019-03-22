@@ -1,4 +1,4 @@
-def play (board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+def play (board)
   counter = 0
   if counter < 10
     turn(board)
